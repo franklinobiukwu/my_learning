@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Download puppet release package
+wget https://apt.puppetlabs.com/puppet8-release-jammy.deb
+
+# Install the package
+sudo dpkg -i puppet8-release-jammy.deb
+
+# Update package list
+sudo apt-get update
+
+# Install puppet agent
+#sudo apt-get install puppet-agent
+#
+# Install puppet server
+sudo apt-get install -y puppetserver

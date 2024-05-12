@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+"""
+A Script where I practice all Python
+code
+"""
+
+thislist = ["apple", "banana", "cherry"]
+
+[print(x) for x in thislist]

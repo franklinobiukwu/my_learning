@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+weight_lbs = input("What is your weight (in lbs)?\n")
+weight_kg = int(weight_lbs) * 0.45
+print(f"Your weight in kg is {weight_kg}")

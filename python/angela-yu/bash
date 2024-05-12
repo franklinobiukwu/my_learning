@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Script that creates 100 folders, named "day-X" for my python 100 days of code
+# (X being the day number)
+
+for i in {1..100}; do
+    # Create the folders with a consistent naming convetion
+    mkdir "day-${i}"
+done
+
+echo "Successfully created all 100 folders for Python 100 days of code"
