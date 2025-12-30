@@ -1,0 +1,5 @@
+local myMath = require("customModule")
+print(myMath.add(2, 5))
+print(myMath.sub(2, 5))
+print(myMath.looper(5))
+print(myMath.power(2, 2))
